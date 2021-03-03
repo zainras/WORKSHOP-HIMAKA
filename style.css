@@ -1,0 +1,31 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+	background: #60A5FA;
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+table, th, td {
+	border: 1px solid #333;
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 10px;
+}
+
+.wrap-act-tambah {
+	margin-bottom: 10px;
+	text-align: right;
+}
