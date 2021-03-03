@@ -31,7 +31,7 @@
 			</tbody>
 		</table>
 		<br>
-		<a href="http://localhost/jurnal-harian/">Kembali</a>
+		<a href="index.php">Kembali</a>
 	</div>
 </body>
 </html>

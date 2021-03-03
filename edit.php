@@ -35,16 +35,14 @@
 							<textarea name="deskripsi"><?php echo $data['deskripsi'] ?></textarea>
 						</td>
 					</tr>
-					<tr>
-						<td>
-							<button type="submit">UPDATE</button>
-						</td>
-					</tr>
 				</tbody>
 			</table>
 		</form>
 		<br>
-		<a href="http://localhost/jurnal-harian/">Kembali</a>
+		<div>
+			<a href="index.php">Kembali</a>
+			<button type="submit">UPDATE</button>
+		</div>
 	</div>
 </body>
 </html>

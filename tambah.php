@@ -22,13 +22,10 @@
 							<textarea name="deskripsi"></textarea>
 						</td>
 					</tr>
-					<tr>
-						<td>
-							<button type="submit">SIMPAN</button>
-						</td>
-					</tr>
 				</tbody>
 			</table>
+			<br>
+			<button type="submit">SIMPAN</button>
 		</form>
 	</div>
 </body>

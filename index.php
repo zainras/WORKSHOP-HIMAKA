@@ -12,9 +12,10 @@
 <body>
 	<div id="app">
 		<h1>Buku Jurnal Harian</h1>
-		<div class="wrap-act-tambah">
-			<a href="tambah.php">Tambah Jurnal</a>
+		<div class="text-kanan">
+			<a href="tambah.php" class="act act-tambah">Tambah Jurnal</a>
 		</div>
+		<br>
 		<table>
 			<thead>
 				<tr>
@@ -36,9 +37,9 @@
 							echo '<td>' . $row['judul'] . '</td>';
 							echo '<td>' . substr($row['deskripsi'], 0, 50) . '</td>';
 							echo '<td>';
-									echo '<a href="lihat.php?id='. $row['id'] .'">Lihat</a>';
-									echo '<a href="edit.php?id='. $row['id'] .'">Edit</a>';
-									echo '<a href="act-hapus.php?id='. $row['id'] .'">Hapus</a>';
+									echo '<a href="lihat.php?id='. $row['id'] .'" class="act act-lihat">Lihat</a>';
+									echo '<a href="edit.php?id='. $row['id'] .'" class="act act-edit">Edit</a>';
+									echo '<a href="act-hapus.php?id='. $row['id'] .'" class="act act-hapus">Hapus</a>';
 								echo '</td>';
 							echo '</tr>';
 						$i++;
